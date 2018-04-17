@@ -11,7 +11,6 @@ from matplotlib import style
 style.use('ggplot')
 
 
-
 df = quandl.get('WIKI/TSLA')
 
 df = df[['Adj. Open','Adj. High','Adj. Low','Adj. Close','Adj. Volume',]]
